@@ -1,9 +1,13 @@
-function App() {
+import React from "react";
+import CardList from "./CardList";
+import { robots } from "./robots";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div>
+      <CardList robots={robots} />
     </div>
   );
-}
+};
 
 export default App;
